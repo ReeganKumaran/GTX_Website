@@ -217,7 +217,7 @@ const ContactFooter = () => {
             <div className="space-y-4">
               <div className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-blue-600 mt-1 flex-shrink-0" />
-                <span className="text-gray-600">Raj Studio in front of KFC yellow color House, Kovilpatti</span>
+                <span className="text-gray-600">Raj Studios 85, Kadalaiyur Rd, KOVILPATTI TAMIL NADU 628501</span>
               </div>
               <div className="flex items-center gap-3">
                 <Phone className="w-5 h-5 text-blue-600 flex-shrink-0" />
