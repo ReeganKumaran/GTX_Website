@@ -102,7 +102,7 @@ const ContactFooter = () => {
   return (
     <footer className="bg-white border-t border-gray-200">
       <div
-        style={{backgroundImage: 'linear-gradient(to right, #e1b7f9ff, #eecce1ff)'}}
+        style={{backgroundImage: 'linear-gradient(to right, #dbeafe, #bfdbfe)'}}
         className="py-12 rounded-2xl">
         <div className="max-w-4xl mx-auto px-6 text-center">
           <h3 className="text-3xl font-bold text-gray-900 mb-4">Let's Connect</h3>
@@ -132,7 +132,7 @@ const ContactFooter = () => {
               onChange={(e) => setName(e.target.value)}
               placeholder="Your name (optional)"
               disabled={loading}
-              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent disabled:opacity-50 disabled:cursor-not-allowed"
+              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent disabled:opacity-50 disabled:cursor-not-allowed"
             />
             
             <input 
@@ -142,7 +142,7 @@ const ContactFooter = () => {
               placeholder="Your email address"
               required
               disabled={loading}
-              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent disabled:opacity-50 disabled:cursor-not-allowed"
+              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent disabled:opacity-50 disabled:cursor-not-allowed"
             />
             <textarea
               value={message}
@@ -156,7 +156,7 @@ const ContactFooter = () => {
             <button 
               type="submit"
               disabled={loading}
-              className="w-full px-6 py-3 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition-colors flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed"
+              className="w-full px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed"
             >
               {loading ? (
                 <>

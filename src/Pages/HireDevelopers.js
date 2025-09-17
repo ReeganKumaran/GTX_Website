@@ -186,7 +186,7 @@ const HireDevelopers = () => {
                       onChange={handleInputChange}
                       required
                       disabled={loading}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent disabled:opacity-50"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent disabled:opacity-50"
                       placeholder="John Doe"
                     />
                   </div>
@@ -202,7 +202,7 @@ const HireDevelopers = () => {
                       onChange={handleInputChange}
                       required
                       disabled={loading}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent disabled:opacity-50"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent disabled:opacity-50"
                       placeholder="john@company.com"
                     />
                   </div>
@@ -217,7 +217,7 @@ const HireDevelopers = () => {
                       value={formData.company}
                       onChange={handleInputChange}
                       disabled={loading}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent disabled:opacity-50"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent disabled:opacity-50"
                       placeholder="Your Company"
                     />
                   </div>
@@ -232,7 +232,7 @@ const HireDevelopers = () => {
                       value={formData.phone}
                       onChange={handleInputChange}
                       disabled={loading}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent disabled:opacity-50"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent disabled:opacity-50"
                       placeholder="+1 (555) 123-4567"
                     />
                   </div>
@@ -273,7 +273,7 @@ const HireDevelopers = () => {
                       onChange={handleInputChange}
                       required
                       disabled={loading}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent disabled:opacity-50"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent disabled:opacity-50"
                     >
                       <option value="">Select budget range</option>
                       <option value="Less than $5,000">Less than $5,000</option>
@@ -295,7 +295,7 @@ const HireDevelopers = () => {
                       onChange={handleInputChange}
                       required
                       disabled={loading}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent disabled:opacity-50"
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent disabled:opacity-50"
                     >
                       <option value="">Select timeline</option>
                       <option value="Immediately">Immediately</option>
@@ -328,7 +328,7 @@ const HireDevelopers = () => {
                   <button
                     type="submit"
                     disabled={loading}
-                    className="flex-1 px-6 py-3 bg-gradient-to-r from-purple-600 to-pink-600 text-white rounded-lg hover:from-purple-700 hover:to-pink-700 transition-all duration-300 flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed"
+                    className="flex-1 px-6 py-3 bg-gradient-to-r from-blue-600 to-blue-700 text-white rounded-lg hover:from-blue-700 hover:to-blue-800 transition-all duration-300 flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed"
                   >
                     {loading ? (
                       <>

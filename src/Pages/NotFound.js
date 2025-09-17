@@ -12,7 +12,7 @@ const NotFound = () => {
     >
       <div className="text-center">
         <motion.h1 
-          className="text-9xl font-bold text-purple-600"
+          className="text-9xl font-bold text-blue-600"
           initial={{ scale: 0 }}
           animate={{ scale: 1 }}
           transition={{ 
@@ -50,7 +50,7 @@ const NotFound = () => {
         >
           <Link 
             to="/" 
-            className="flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-purple-600 to-pink-600 text-white rounded-full hover:from-purple-700 hover:to-pink-700 transition-all duration-300 transform hover:scale-105"
+            className="flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-blue-600 to-blue-700 text-white rounded-full hover:from-blue-700 hover:to-blue-800 transition-all duration-300 transform hover:scale-105"
           >
             <Home size={18} />
             Go Home
@@ -58,7 +58,7 @@ const NotFound = () => {
           
           <button 
             onClick={() => window.history.back()} 
-            className="flex items-center gap-2 px-6 py-3 border-2 border-purple-600 text-purple-600 rounded-full hover:bg-purple-50 transition-all duration-300"
+            className="flex items-center gap-2 px-6 py-3 border-2 border-blue-600 text-blue-600 rounded-full hover:bg-blue-50 transition-all duration-300"
           >
             <ArrowLeft size={18} />
             Go Back

@@ -38,7 +38,7 @@ const Services = () => {
     <div className="relative w-full px-4 sm:px-6 lg:px-8 py-16 bg-[#F9F9FF]">
       <div className="max-w-7xl mx-auto">
         <div className="absolute -top-9 left-1/2 transform -translate-x-1/2 w-[72px] h-[36px] overflow-hidden z-10">
-          <div className="w-[72px] h-[72px] rounded-full bg-gradient-to-br from-pink-500 to-purple-700"></div>
+          <div className="w-[72px] h-[72px] rounded-full bg-gradient-to-br from-blue-500 to-blue-700"></div>
         </div>
 
         <div className="text-center mb-12">
@@ -83,16 +83,16 @@ const Services = () => {
                     transition={{ delay: index * 0.1 }}
                   >
                     <motion.div
-                      className="h-full bg-white rounded-xl p-6 shadow-sm border-2 border-transparent hover:border-pink-500 transition-all duration-300 cursor-pointer"
+                      className="h-full bg-white rounded-xl p-6 shadow-sm border-2 border-transparent hover:border-blue-500 transition-all duration-300 cursor-pointer"
                       whileHover={{ 
                         scale: 1.02,
                         boxShadow: "0 10px 30px rgba(0,0,0,0.1)"
                       }}
                     >
-                      <div className="w-14 h-14 mb-4 border-2 border-[#DE4396] rounded-full p-3 flex items-center justify-center bg-pink-50">
+                      <div className="w-14 h-14 mb-4 border-2 border-blue-500 rounded-full p-3 flex items-center justify-center bg-blue-50">
                         {service.image}
                       </div>
-                      <h3 className="font-semibold text-lg text-gray-900 mb-3 bg-gradient-to-r from-pink-500 to-purple-700 bg-clip-text text-transparent">
+                      <h3 className="font-semibold text-lg text-gray-900 mb-3 bg-gradient-to-r from-blue-500 to-blue-700 bg-clip-text text-transparent">
                         {service.title}
                       </h3>
                       <p className="text-gray-600 text-sm leading-relaxed">
@@ -113,7 +113,7 @@ const Services = () => {
               onClick={() => setCurrentIndex(index)}
               className={`w-2 h-2 rounded-full transition-all duration-300 ${
                 currentIndex === index 
-                  ? "w-8 bg-gradient-to-r from-pink-500 to-purple-700" 
+                  ? "w-8 bg-gradient-to-r from-blue-500 to-blue-700" 
                   : "bg-gray-300 hover:bg-gray-400"
               }`}
             />

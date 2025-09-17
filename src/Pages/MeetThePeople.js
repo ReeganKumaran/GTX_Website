@@ -18,15 +18,15 @@ const MeetThePeople = () => {
         <div className="relative py-12 px-6 bg-white">
             <div className="flex justify-between items-center">
                 <div className="mb-6 text-left">
-                    <div className="w-20 h-1 bg-purple-600 mb-2 rounded-full"></div>
+                    <div className="w-20 h-1 bg-blue-600 mb-2 rounded-full"></div>
                     <Header text1="Meet the People" text2="We are Working With" />
                 </div>
                 <div className="flex gap-6">
                     <span
                         onClick={() => handleScroll('left')}
                         className={`rounded-full p-3 cursor-pointer transition ${lastClicked === 'left'
-                            ? 'bg-[#57007B] text-white'
-                            : 'border border-[#57007B] text-[#57007B]'
+                            ? 'bg-blue-600 text-white'
+                            : 'border border-blue-600 text-blue-600'
                             }`}
                     >
                         <ArrowLeft />
@@ -34,8 +34,8 @@ const MeetThePeople = () => {
                     <span
                         onClick={() => handleScroll('right')}
                         className={`rounded-full p-3 cursor-pointer transition ${lastClicked === 'right'
-                            ? 'bg-[#57007B] text-white'
-                            : 'border border-[#57007B] text-[#57007B]'
+                            ? 'bg-blue-600 text-white'
+                            : 'border border-blue-600 text-blue-600'
                             }`}
                     >
                         <ArrowRight />
@@ -45,7 +45,7 @@ const MeetThePeople = () => {
 
             <div className="relative bg-[#E5E5E5] p-4 rounded-lg overflow-visible">
                 <div className="absolute top-[-36px] left-[64%] transform -translate-x-1/2 w-[72px] h-[36px] overflow-hidden z-10">
-                    <div className="w-[72px] h-[72px] rounded-full bg-gradient-to-br from-pink-500 to-purple-700"></div>
+                    <div className="w-[72px] h-[72px] rounded-full bg-gradient-to-br from-blue-500 to-blue-700"></div>
                 </div>
 
                 <div
