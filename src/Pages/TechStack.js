@@ -13,7 +13,7 @@ const TechStack = () => {
   return (
     <div className=" px-4 pt-12 pb-4 overflow-hidden">
       <div className='text-center mb-10 flex flex-col items-center justify-center'>
-        <div className="w-20 h-1 bg-purple-600 mb-2 rounded-full"></div>
+        <div className="w-20 h-1 bg-blue-600 mb-2 rounded-full"></div>
         <Header text1="Our" text2="Tech Stack" />
       </div>
 
@@ -23,7 +23,7 @@ const TechStack = () => {
             key={name}
             onClick={() => setActiveTab(name)}
             className={`text-lg font-medium border-b-2 pb-1 transition ${activeTab === name
-              ? 'text-[#9C27B0] border-[#9C27B0]'
+              ? 'text-blue-500 border-blue-500'
               : 'text-gray-600 border-transparent hover:text-[#9C27B0]'
               }`}
           >

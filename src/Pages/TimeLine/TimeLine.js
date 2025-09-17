@@ -56,8 +56,8 @@ export default function TimeLine() {
       <TimeLineUI data={data} />
     </div>
     <div className="hidden lg:flex justify-center flex-col items-center">
-      <div className='text-center mb-10 flex flex-col items-center justify-center'>
-        <div className="w-20 h-1 bg-purple-600 mb-2 rounded-full"></div>
+      <div className='text-center mb-5 flex flex-col items-center justify-center'>
+        <div className="w-20 h-1 bg-blue-600 mt-5 rounded-full"></div>
         <Header text1="How development " text2="through Alcaline works" />
       </div>
       <div className="relative w-[100%] max-w-[1300px] min-w-[905px] py-16">
@@ -72,7 +72,7 @@ export default function TimeLine() {
                   }`}
                 >
                   <div className="bg-white shadow-md rounded-md p-4 text-center w-full">
-                    <h3 className="text-sm font-bold text-purple-600">
+                    <h3 className="text-sm font-bold text-blue-600">
                       #{step.id}{" "}
                       <span className="text-black">{step.title}</span>
                     </h3>
@@ -81,12 +81,12 @@ export default function TimeLine() {
                     </p>
                   </div>
 
-                  <div className="absolute h-10 w-0.5 bg-purple-500 top-[123%] left-1/2 transform -translate-x-1/2"></div>
+                  <div className="absolute h-10 w-0.5 bg-blue-500 top-[123%] left-1/2 transform -translate-x-1/2"></div>
                 </div>
               )
           )}
         </div>
-        <div className="flex justify-between items-center border-t-2 border-purple-500 mx-8 relative">
+        <div className="flex justify-between items-center border-t-2 border-blue-500 mx-8 relative">
           <div className="absolute -right-[3%] -top-5 text-2xl">🏆</div>
         </div>
 
@@ -102,7 +102,7 @@ export default function TimeLine() {
                     }`}
                   >
                     <div className="bg-white shadow-md rounded-md p-4 text-center w-full">
-                      <h3 className="text-sm font-bold text-purple-600">
+                      <h3 className="text-sm font-bold text-blue-600">
                         #{step.id}{" "}
                         <span className="text-black">{step.title}</span>
                       </h3>
@@ -111,7 +111,7 @@ export default function TimeLine() {
                       </p>
                     </div>
 
-                    <div className="absolute h-10 w-0.5 bg-purple-500 bottom-[123%] left-1/2 transform -translate-x-1/2 "></div>
+                    <div className="absolute h-10 w-0.5 bg-blue-500 bottom-[123%] left-1/2 transform -translate-x-1/2 "></div>
                   </div>
                 </>
               )
