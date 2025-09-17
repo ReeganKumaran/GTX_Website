@@ -47,6 +47,14 @@ import {
   FaCloud,
   FaCogs,
   FaLightbulb,
+  FaCreditCard,
+  FaShoppingCart,
+  FaPlay,
+  FaTicketAlt,
+  FaBitcoin,
+  FaBrain,
+  FaRobot,
+  FaComments,
 } from "react-icons/fa";
 
 import angular from "./tech/angular.svg";
@@ -125,45 +133,101 @@ export const assets = {
 
 export const services = [
   {
-    image: <FaMobileAlt size={40} color="#DE4396" />,
+    image: <FaMobileAlt size={40} color="#3B82F6" />,
     title: "Mobile App Development",
     description:
       "Big or small, we create mobile apps that are tailored to your business and designed to grow with you.",
   },
 
   {
-    image: <FaLaptopCode size={40} color="#DE4396" />,
+    image: <FaLaptopCode size={40} color="#3B82F6" />,
     title: "Web design & Development",
     description:
       "From startups to enterprises, we build websites that are modern, responsive, and built to impress.",
   },
 
   {
-    image: <FaBug size={40} color="#DE4396" />,
+    image: <FaBug size={40} color="#3B82F6" />,
     title: "Software Testing Service",
     description:
       "No matter the scale, we ensure your software is reliable, secure, and ready to perform.",
   },
 
   {
-    image: <FaLightbulb size={40} color="#DE4396" />,
+    image: <FaLightbulb size={40} color="#3B82F6" />,
     title: "Product Development",
     description:
       "From concept to launch, we help you build innovative products that solve real-world problems and drive business success.",
   },
 
   {
-    image: <FaCloud size={40} color="#DE4396" />,
+    image: <FaCloud size={40} color="#3B82F6" />,
     title: "Cloud Integration Services",
     description:
       "Whether you're starting small or scaling big, we make cloud integration seamless and efficient.",
   },
 
   {
-    image: <FaCogs size={40} color="#DE4396" />,
+    image: <FaCogs size={40} color="#3B82F6" />,
     title: "DevOps and Automation",
     description:
       "For every business, we streamline processes to deliver faster, smarter, and more reliable solutions.",
+  },
+
+  {
+    image: <FaCreditCard size={40} color="#3B82F6" />,
+    title: "Digital Payment Platform",
+    description:
+      "Seamlessly integrate secure and scalable payment solutions that empower businesses to accept transactions anytime, anywhere.",
+  },
+
+  {
+    image: <FaShoppingCart size={40} color="#3B82F6" />,
+    title: "E-Commerce Service",
+    description:
+      "From product catalogs to seamless checkout, we build e-commerce platforms that are fast, reliable, and designed to boost online sales.",
+  },
+
+  {
+    image: <FaPlay size={40} color="#3B82F6" />,
+    title: "OTT Platforms",
+    description:
+      "Deliver engaging streaming experiences with custom OTT solutions tailored for movies, shows, and digital content.",
+  },
+
+  {
+    image: <FaTicketAlt size={40} color="#3B82F6" />,
+    title: "Sports Booking Apps",
+    description:
+      "Simplify ticketing and reservations with user-friendly apps that keep fans connected to their favorite sporting events.",
+  },
+
+  {
+    image: <FaBitcoin size={40} color="#3B82F6" />,
+    title: "Crypto & Blockchain",
+    description:
+      "Build secure, decentralized solutions powered by blockchain technology—whether it's crypto wallets, exchanges, or smart contracts.",
+  },
+
+  {
+    image: <FaRobot size={40} color="#3B82F6" />,
+    title: "Machine Learning (ML)",
+    description:
+      "Unlock insights and automation with ML models that adapt and improve with your data.",
+  },
+
+  {
+    image: <FaBrain size={40} color="#3B82F6" />,
+    title: "Deep Learning (DL)",
+    description:
+      "Harness the power of neural networks to solve complex problems in image, speech, and predictive analytics.",
+  },
+
+  {
+    image: <FaComments size={40} color="#3B82F6" />,
+    title: "Natural Language Processing (NLP)",
+    description:
+      "Transform the way businesses interact by enabling systems to understand, process, and respond to human language.",
   },
 ];
 
